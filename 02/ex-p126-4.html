@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- p 126 4번문제 -->
+    <script>
+      //원의 반지름을 입력받아 원의 넓이와 둘레를 구하는 프로그램
+      //넓이 = 3.14 * 반지름 * 반지름 //둘레 = 2 * 3.14 * 반지름
+
+      //숫자를 입력받는다
+      const radius = prompt("원의 반지름을 입력해주세요.");
+      const r = Number(radius);
+
+      //출력
+      let output = "";
+      output += `원의 반지름 : ${r}\n`;
+      output += `원의 넓이 : ${3.14 * r * r}\n`;
+      output += `원의 둘레 : ${2 * 3.14 * r}`;
+      alert(output);
+    </script>
+  </body>
+</html>
